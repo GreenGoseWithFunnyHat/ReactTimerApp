@@ -6,9 +6,9 @@ module.exports = {
       'script!foundation-sites/dist/js/foundation.min.js',
       './app/app.jsx'
   ],
-  // externals: {
-  //     jquery: 'jQuery'
-  // },
+  externals: {
+      jquery: 'jQuery'
+  },
   // externals: {
   //     foundation: 'Foundation'
   // },
@@ -31,6 +31,7 @@ module.exports = {
           Timer: 'app/components/Timer.jsx',
           Countdown: 'app/components/Countdown.jsx',
           Clock: 'app/components/Clock.jsx',
+          Controls: 'app/components/Controls.jsx',
           CountdownForm: 'app/components/CountdownForm.jsx'
       },
       extensions: ['', '.js', '.jsx']
